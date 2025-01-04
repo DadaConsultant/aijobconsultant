@@ -1,0 +1,64 @@
+/* Minimal Template */
+.minimal-resume {
+  @apply max-w-4xl mx-auto p-8;
+}
+
+.minimal-resume header {
+  @apply mb-8;
+}
+
+.minimal-resume h1 {
+  @apply text-3xl font-bold text-gray-900;
+}
+
+.minimal-resume .title {
+  @apply text-xl text-gray-600;
+}
+
+.minimal-resume .contact-info {
+  @apply mt-4 text-sm text-gray-600 space-y-1;
+}
+
+.minimal-resume section {
+  @apply mb-8;
+}
+
+.minimal-resume h2 {
+  @apply text-xl font-bold text-gray-900 mb-4 uppercase;
+}
+
+.minimal-resume .experience-item {
+  @apply mb-6 border-l-2 border-gray-200 pl-4;
+}
+
+.minimal-resume .position {
+  @apply text-lg font-medium text-gray-900;
+}
+
+.minimal-resume .company {
+  @apply text-gray-600;
+}
+
+.minimal-resume .date {
+  @apply text-sm text-gray-500 mb-2;
+}
+
+.minimal-resume .responsibilities {
+  @apply text-gray-700 space-y-2;
+}
+
+.minimal-resume .skills-grid {
+  @apply grid grid-cols-2 gap-8;
+}
+
+.minimal-resume .skill-category {
+  @apply mb-6;
+}
+
+.minimal-resume .skill-category h3 {
+  @apply text-lg font-medium text-gray-900 mb-2;
+}
+
+.minimal-resume .skill-item {
+  @apply text-gray-700 flex justify-between items-center border-b border-gray-100 py-2;
+}

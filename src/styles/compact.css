@@ -1,0 +1,56 @@
+/* Compact Template */
+.compact-resume {
+  @apply max-w-4xl mx-auto p-8;
+}
+
+.compact-resume header {
+  @apply border-b-2 border-blue-600 pb-4 mb-6;
+}
+
+.compact-resume h1 {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.compact-resume .contact-info {
+  @apply text-sm text-gray-600 flex flex-wrap gap-4 mt-2;
+}
+
+.compact-resume section {
+  @apply mb-6;
+}
+
+.compact-resume h2 {
+  @apply text-lg font-semibold text-blue-600 mb-3 uppercase tracking-wider;
+}
+
+.compact-resume .experience-item {
+  @apply mb-4;
+}
+
+.compact-resume .experience-header {
+  @apply flex justify-between items-baseline mb-1;
+}
+
+.compact-resume .company {
+  @apply font-medium text-gray-900;
+}
+
+.compact-resume .date {
+  @apply text-sm text-gray-600;
+}
+
+.compact-resume .responsibilities {
+  @apply text-sm text-gray-700 pl-4 list-disc;
+}
+
+.compact-resume .skills-grid {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.compact-resume .skill-category {
+  @apply mb-4;
+}
+
+.compact-resume .skill-item {
+  @apply text-sm text-gray-700 flex justify-between;
+}

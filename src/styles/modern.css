@@ -1,0 +1,134 @@
+/* Modern Template Styles */
+.modern-resume {
+  @apply max-w-[21cm] mx-auto bg-white p-8 shadow-lg;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header Styles */
+.modern-resume .header {
+  @apply flex justify-between items-start mb-8;
+}
+
+.modern-resume .header-content {
+  @apply flex-1;
+}
+
+.modern-resume .header-photo {
+  @apply w-32 h-32 rounded-full object-cover ml-6 border-4 border-cyan-500/20;
+}
+
+.modern-resume .name {
+  @apply text-4xl font-bold text-gray-900 mb-2;
+}
+
+.modern-resume .title {
+  @apply text-xl text-cyan-600 font-medium mb-3;
+}
+
+.modern-resume .contact-info {
+  @apply flex items-center gap-6 text-gray-600;
+}
+
+.modern-resume .contact-item {
+  @apply flex items-center gap-2;
+}
+
+/* Two Column Layout */
+.modern-resume .content {
+  @apply grid grid-cols-12 gap-8;
+}
+
+.modern-resume .main-column {
+  @apply col-span-8;
+}
+
+.modern-resume .side-column {
+  @apply col-span-4;
+}
+
+/* Section Styles */
+.modern-resume .section {
+  @apply mb-8;
+}
+
+.modern-resume .section-header {
+  @apply uppercase text-gray-500 font-bold text-sm tracking-wider mb-4 pb-2 border-b border-gray-200;
+}
+
+/* Experience Items */
+.modern-resume .experience-item {
+  @apply mb-6;
+}
+
+.modern-resume .experience-header {
+  @apply flex justify-between items-start mb-2;
+}
+
+.modern-resume .company {
+  @apply text-cyan-600 font-semibold;
+}
+
+.modern-resume .position {
+  @apply text-gray-900 font-medium;
+}
+
+.modern-resume .date-location {
+  @apply text-sm text-gray-500 flex items-center gap-2;
+}
+
+.modern-resume .responsibilities {
+  @apply list-disc pl-5 text-gray-700 space-y-1;
+}
+
+/* Skills */
+.modern-resume .skills-grid {
+  @apply grid grid-cols-2 gap-2;
+}
+
+.modern-resume .skill-tag {
+  @apply bg-gray-100 px-3 py-1 rounded-full text-sm text-gray-700;
+}
+
+/* Language Proficiency */
+.modern-resume .language-item {
+  @apply flex items-center justify-between mb-2;
+}
+
+.modern-resume .proficiency-dots {
+  @apply flex gap-1;
+}
+
+.modern-resume .dot {
+  @apply w-2 h-2 rounded-full;
+}
+
+.modern-resume .dot-filled {
+  @apply bg-cyan-500;
+}
+
+.modern-resume .dot-empty {
+  @apply border border-cyan-500;
+}
+
+/* Achievements */
+.modern-resume .achievement-item {
+  @apply flex items-start gap-3 mb-4;
+}
+
+.modern-resume .achievement-icon {
+  @apply text-cyan-500 flex-shrink-0;
+}
+
+/* Certifications */
+.modern-resume .certification-item {
+  @apply mb-3 pb-3 border-b border-gray-100 last:border-0;
+}
+
+.modern-resume .certification-header {
+  @apply flex justify-between items-start;
+}
+
+/* Links */
+.modern-resume a {
+  @apply text-cyan-600 hover:text-cyan-700 transition-colors;
+}
